@@ -140,7 +140,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Zod", "Google Analytics"],
     imageUrl: "/project-cover.png",
     demoUrl: "https://contrasttree.vercel.app/",
-    githubUrl: "https://github.com/arifmiah07/contrast-canvas",
+    githubUrl: "https://github.com/ArifMiah07/color-contrast-checker",
     featured: true,
     details: {
       overview:
@@ -166,7 +166,7 @@ export const projects: Project[] = [
     technologies: ["React", "Redux Toolkit", "TypeScript", "Express", "MongoDB", "Cloudinary"],
     imageUrl: "/project-cover.png",
     demoUrl: "https://medi-sphere-five.vercel.app/",
-    githubUrl: "https://github.com/arifmiah07/medi-sphere",
+    githubUrl: "https://github.com/ArifMiah07/medicine-sphere-client",
     featured: true,
     details: {
       overview:
@@ -192,7 +192,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     imageUrl: "/project-cover.png",
     demoUrl: "https://cycle-sphere.vercel.app",
-    githubUrl: "https://github.com/arifmiah07/cycle-sphere",
+    githubUrl: "https://github.com/ArifMiah07/bicycle-sphere-client",
     featured: true,
     details: {
       overview:
@@ -218,7 +218,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     imageUrl: "/project-cover.png",
     demoUrl: "https://xfnf.netlify.app",
-    githubUrl: "https://github.com/arifmiah07/xonxoni",
+    githubUrl: "https://github.com/ArifMiah07/xonxoni-fnf",
     featured: false,
     details: {
       overview:
@@ -243,7 +243,7 @@ export const projects: Project[] = [
     slug: "vibe-chat",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "shadcn/ui", "Firebase"],
     imageUrl: "/project-cover.png",
-    demoUrl: "https://vibe-chat.vercel.app",
+    demoUrl: "https://github.com/arifmiah07/vibe-chat",
     githubUrl: "https://github.com/arifmiah07/vibe-chat",
     featured: true,
     details: {
