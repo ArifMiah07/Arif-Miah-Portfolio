@@ -1,5 +1,3 @@
-// lib/data.ts - blog data functions
-
 import { BlogPost, Project } from "./types";
 
 // Sample blog data
@@ -10,7 +8,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       "Exploring the latest trends and tools in frontend development including React, Next.js, and TypeScript.",
     slug: "understanding-modern-frontend-development",
-    coverImage: "/images/blog/frontend-development.jpg",
+    coverImage: "/blog-cover.png",
     date: "2024-04-15",
     readTime: "5 min read",
     tags: ["React", "Next.js", "TypeScript"],
@@ -42,7 +40,7 @@ Modern frontend development is all about creating fast, scalable, and maintainab
     excerpt:
       "How to create beautiful, responsive user interfaces efficiently using Tailwind CSS utility classes.",
     slug: "building-responsive-uis-with-tailwind",
-    coverImage: "/images/blog/tailwind-css.jpg",
+    coverImage: "/blog-cover.png",
     date: "2024-03-22",
     readTime: "4 min read",
     tags: ["CSS", "Tailwind", "UI Design"],
@@ -74,7 +72,7 @@ Tailwind CSS provides a powerful set of tools for building responsive and mainta
     excerpt:
       "Learn how to implement smooth animations in React applications using libraries like Framer Motion.",
     slug: "animations-in-react",
-    coverImage: "/images/blog/react-animations.jpg",
+    coverImage: "/blog-cover.png",
     date: "2024-02-18",
     readTime: "7 min read",
     tags: ["React", "Animation", "Framer Motion"],
@@ -110,132 +108,167 @@ With the right approach and tools, you can create beautiful and performant anima
 const projects: Project[] = [
   {
     id: "1",
-    title: "E-commerce Platform",
-    description:
-      "A full-featured e-commerce platform built with Next.js, TypeScript, and Stripe integration.",
-    slug: "ecommerce-platform",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Stripe",
-      "Tailwind CSS",
-      "MongoDB",
-    ],
-    imageUrl: "/images/projects/ecommerce.jpg",
-    demoUrl: "https://ecommerce-demo.example.com",
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
+    title: "Clyst",
+    description: "A dual-mode social media + private journaling app enabling public expression and private reflection.",
+    slug: "clyst",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Supabase", "Clerk"],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://iclyst.web.app/",
+    githubUrl: "https://github.com/arifmiah07/clyst",
     featured: true,
     details: {
       overview:
-        "This e-commerce platform provides a complete solution for online stores. It includes product listings, cart functionality, secure checkout with Stripe, and an admin dashboard for managing products and orders.",
+        "Clyst allows users to switch between a social feed and a personal log. It provides a minimal, distraction-free UI for writing and connecting with others or oneself.",
       challenges:
-        "One of the main challenges was implementing a seamless checkout experience while ensuring security. I used Stripe's API to handle payments and implemented server-side validation to prevent fraud.",
+        "Building a seamless toggle between public and private modes without confusing the UX took careful state and permission handling.",
       features: [
-        "Responsive product catalog with filtering and search",
-        "User authentication and account management",
-        "Shopping cart with local storage persistence",
-        "Secure checkout with Stripe integration",
-        "Admin dashboard for product and order management",
-        "SEO optimization for product pages",
+        "Dual-mode (Public Feed & Private Journal)",
+        "Clerk-authenticated user accounts",
+        "Supabase-powered data storage",
+        "Responsive, keyboard-friendly UI",
+        "Optimized for both expression and introspection",
       ],
       learnings:
-        "Building this project deepened my understanding of e-commerce workflows and secure payment processing. I also improved my skills in state management with React Context API and server-side rendering with Next.js.",
+        "This project sharpened my UX thinking and helped me work deeply with Supabase and real-time subscriptions.",
     },
   },
   {
     id: "2",
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with real-time updates and team collaboration features.",
-    slug: "task-management-app",
-    technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
-    imageUrl: "/images/projects/task-management.jpg",
-    demoUrl: "https://taskapp-demo.example.com",
-    githubUrl: "https://github.com/yourusername/task-management",
+    title: "Color Contrast Checker",
+    description: "An advanced accessibility tool to test text readability on deeply nested background layers.",
+    slug: "color-contrast-checker",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Zod", "Google Analytics"],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://contrasttree.vercel.app/",
+    githubUrl: "https://github.com/arifmiah07/contrast-canvas",
     featured: true,
     details: {
       overview:
-        "This task management application helps teams organize and track their work. It features board-style task management, real-time updates, team collaboration tools, and detailed reporting.",
+        "A unique tool for developers and designers to visually validate contrast levels across nested background layers with live WCAG compliance feedback.",
       challenges:
-        "Implementing real-time synchronization across multiple users was challenging. I used Firebase Realtime Database to ensure all team members see the latest updates without refreshing the page.",
+        "Calculating nested effective contrast while factoring opacity and transparency blending required building a custom algorithm.",
       features: [
-        "Drag-and-drop interface for task management",
-        "Real-time updates across all connected clients",
-        "Team collaboration with comments and mentions",
-        "Customizable workflow stages and task categories",
-        "Detailed reporting and analytics dashboard",
-        "Mobile-responsive design for on-the-go access",
+        "Live WCAG contrast ratings",
+        "Support for transparency & blending",
+        "Multiple layering & nested backgrounds",
+        "Copy-paste color support",
+        "Zod-based schema validation for inputs",
       ],
       learnings:
-        "This project taught me a lot about real-time database design and state management in complex applications. I also gained experience in optimizing performance for applications with frequent updates.",
+        "Helped me deeply understand accessibility standards (WCAG), alpha blending math, and accessible design workflows.",
     },
   },
   {
     id: "3",
-    title: "Personal Finance Dashboard",
-    description:
-      "A dashboard for tracking personal finances, expenses, and savings goals with data visualization.",
-    slug: "finance-dashboard",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Chart.js",
-      "Tailwind CSS",
-      "Supabase",
-    ],
-    imageUrl: "/images/projects/finance-dashboard.jpg",
-    demoUrl: "https://finance-demo.example.com",
-    githubUrl: "https://github.com/yourusername/finance-dashboard",
+    title: "Medi-Sphere",
+    description: "A complete medicine management app with search, filter, sort, and admin CRUD features.",
+    slug: "medi-sphere",
+    technologies: ["React", "Redux Toolkit", "TypeScript", "Express", "MongoDB", "Cloudinary"],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://medi-sphere-five.vercel.app/",
+    githubUrl: "https://github.com/arifmiah07/medi-sphere",
     featured: true,
     details: {
       overview:
-        "This personal finance dashboard helps users track their income, expenses, and savings goals. It includes interactive charts for visualizing financial data and tools for setting and monitoring budget goals.",
+        "A responsive, full-stack medicine management web app for clinics and pharmacies to handle medicine stock with filtering, sorting, and media upload support.",
       challenges:
-        "Creating intuitive data visualizations that accurately represent complex financial data was the main challenge. I used Chart.js to create interactive and responsive charts that help users understand their finances at a glance.",
+        "Integrating Cloudinary image upload with real-time previews and managing deeply nested medicine attributes in Redux was complex.",
       features: [
-        "Income and expense tracking with categorization",
-        "Budget planning and monitoring tools",
-        "Savings goals with progress tracking",
-        "Interactive charts and reports",
-        "Bank account integration via Plaid API",
-        "Secure authentication and data encryption",
+        "Admin medicine CRUD form",
+        "Advanced search, sort & filter",
+        "Cloudinary image support",
+        "Responsive UI with Tailwind",
+        "Secure backend with Express + MongoDB",
       ],
       learnings:
-        "This project enhanced my skills in data visualization and handling sensitive user data securely. I also learned techniques for making complex financial concepts accessible through thoughtful UI design.",
+        "Improved my full-stack integration skills and handling complex form states with Redux Toolkit.",
     },
   },
   {
     id: "4",
-    title: "Real Estate Listing Platform",
-    description:
-      "A modern real estate platform with property listings, advanced search, and virtual tours.",
-    slug: "real-estate-platform",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API"],
-    imageUrl: "/images/projects/real-estate.jpg",
-    githubUrl: "https://github.com/yourusername/real-estate-platform",
+    title: "Cycle-Sphere",
+    description: "A bicycle marketplace app supporting discovery, listings, and filtering.",
+    slug: "cycle-sphere",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://cycle-sphere.vercel.app",
+    githubUrl: "https://github.com/arifmiah07/cycle-sphere",
+    featured: true,
+    details: {
+      overview:
+        "Cycle-Sphere is a platform where users can list and explore available bicycles for rent or purchase. It provides intuitive filters, image upload, and responsive browsing.",
+      challenges:
+        "Building a performant filter system that worked with Supabase’s Postgres queries required careful index planning and pagination logic.",
+      features: [
+        "Bike listing with image uploads",
+        "Supabase Postgres backend",
+        "Multi-criteria filtering and sorting",
+        "Public listing & preview pages",
+        "Fully responsive mobile experience",
+      ],
+      learnings:
+        "Strengthened my skills in Supabase, image handling, and filter architecture across large datasets.",
+    },
+  },
+  {
+    id: "5",
+    title: "XONXONI F&F",
+    description: "A local-first social platform for residents of XONXONI to share updates and connect.",
+    slug: "xonxoni-ff",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://xfnf.netlify.app",
+    githubUrl: "https://github.com/arifmiah07/xonxoni",
     featured: false,
     details: {
       overview:
-        "This real estate platform connects property sellers with potential buyers. It features property listings with detailed information, advanced search functionality, interactive maps, and virtual tour capabilities.",
+        "A hyperlocal platform focused on connecting family and friends within a specific neighborhood (XONXONI), enabling shared posts and interactions.",
       challenges:
-        "Implementing the location-based search with performance optimization was challenging. I used geospatial indexing in MongoDB and the Google Maps API to create a fast and accurate property search experience.",
+        "Making the platform truly ‘local-first’ while ensuring performance and simplicity was the core focus. Keeping it intuitive yet functional was key.",
       features: [
-        "Advanced property search with multiple filters",
-        "Interactive map view of property listings",
-        "360° virtual tours of properties",
-        "Property comparison tool",
-        "Saved searches and favorite properties",
-        "Agent contact and scheduling system",
+        "Minimalist local community feed",
+        "Post creation and deletion",
+        "Supabase-based backend",
+        "Clean layout with mobile optimization",
+        "No distractions, just local voices",
       ],
       learnings:
-        "This project improved my skills in working with geospatial data and integrating third-party APIs. I also gained experience in creating complex search functionality with multiple parameters.",
+        "Refined my understanding of community-first design and keeping product features focused and minimalistic.",
+    },
+  },
+  {
+    id: "6",
+    title: "Vibe-Chat",
+    description: "A modern, real-time chat application with secure authentication and customizable themes.",
+    slug: "vibe-chat",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "shadcn/ui", "Firebase"],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://vibe-chat.vercel.app",
+    githubUrl: "https://github.com/arifmiah07/vibe-chat",
+    featured: true,
+    details: {
+      overview:
+        "Vibe-Chat is a fully-featured real-time chat app with user authentication, instant messaging, and customizable themes (light/dark). It offers a responsive UI and intuitive sidebar navigation for seamless communication.",
+      challenges:
+        "Building real-time messaging with Firebase and integrating it smoothly into the UI while maintaining performance for larger groups was a key challenge. Ensuring cross-platform consistency with theme switching was also complex.",
+      features: [
+        "User authentication with Clerk",
+        "Real-time chat with instant updates",
+        "Fully responsive design (mobile-first approach)",
+        "Light/Dark mode support with a customizable UI",
+        "Sidebar navigation for easy access to rooms and profiles",
+        "Firebase-powered backend for real-time messaging",
+      ],
+      learnings:
+        "This project deepened my understanding of real-time communication, Firebase integration, and handling theme switching dynamically with Next.js. I also refined my skills in building accessible, responsive UIs with Tailwind CSS.",
     },
   },
 ];
 
+
 // Get all projects
 export const getAllProjects = async (): Promise<Project[]> => {
-  // In a real app, this would fetch from an API or database
+  // todo: backend API 
   return projects;
 };
 
@@ -243,19 +276,19 @@ export const getAllProjects = async (): Promise<Project[]> => {
 export const getProjectBySlug = async (
   slug: string
 ): Promise<Project | null> => {
-  // In a real app, this would fetch from an API or database
+  // todo: backend API 
   return projects.find((project) => project.slug === slug) || null;
 };
 
 // Get featured projects
 export const getFeaturedProjects = async (): Promise<Project[]> => {
-  // In a real app, this would fetch from an API or database
+// todo: backend API 
   return projects.filter((project) => project.featured);
 };
 
 // Get all blog posts
 export const getAllBlogPosts = async (): Promise<BlogPost[]> => {
-  // In a real app, this would fetch from an API or database
+// todo: backend API 
   return blogPosts;
 };
 
@@ -263,7 +296,7 @@ export const getAllBlogPosts = async (): Promise<BlogPost[]> => {
 export const getBlogPostBySlug = async (
   slug: string
 ): Promise<BlogPost | null> => {
-  // In a real app, this would fetch from an API or database
+// todo: backend API 
   return blogPosts.find((post) => post.slug === slug) || null;
 };
 
@@ -271,6 +304,6 @@ export const getBlogPostBySlug = async (
 export const getRecentBlogPosts = async (
   count: number = 3
 ): Promise<BlogPost[]> => {
-  // In a real app, this would fetch from an API or database and sort by date
+  // todo: backend API, sort by date
   return blogPosts.slice(0, count);
 };

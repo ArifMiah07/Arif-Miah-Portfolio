@@ -1,4 +1,3 @@
-// app/contact/page.tsx
 'use client'
 
 import React, { useState } from 'react'
@@ -20,6 +19,7 @@ import { Button } from '@/components/ui/button'
 import { toast } from "sonner"
 import { Mail, MapPin, Phone, Send } from 'lucide-react'
 import ContactInfo from '@/components/contact/ContactInfo'
+import { Toaster } from '@/components/ui/sonner'
 
 // Form validation schema
 const formSchema = z.object({
@@ -31,7 +31,6 @@ const formSchema = z.object({
 
 const ContactPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false)
-//   const { toast } = useToast()
 
   // Initialize form
   const form = useForm<z.infer<typeof formSchema>>({
@@ -44,17 +43,14 @@ const ContactPage = () => {
     }
   })
 
-  // Form submission handler
+  // Form submission 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     console.log(values);//fix it later
     setIsSubmitting(true)
     
-    // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1500));
     
-    // Show success toast
     toast.success(
-    // "Message sent!",
       "Message sent! \n Thank you for your message. I'll get back to you as soon as possible. \n",
     )
     
@@ -68,25 +64,26 @@ const ContactPage = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email',
-      details: 'hello@example.com',
-      link: 'mailto:hello@example.com'
+      details: 'arifmiah.me101@gmail.com',
+      link: 'mailto:arifmiah.me101@gmail.com'
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Phone',
-      details: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      details: '+880 19314*****',
+      link: 'tel:+88019314*****'
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Location',
-      details: 'San Francisco, CA',
-      link: 'https://maps.google.com/?q=San+Francisco,+CA'
+      details: 'Chittagong, BD',
+      link: 'https://maps.google.com/?q=Chittagong,+BD'
     }
   ]
 
   return (
     <div className="container mx-auto px-4 py-16">
+      <Toaster position="top-center" richColors={true}></Toaster>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -124,10 +121,10 @@ const ContactPage = () => {
 
             {/* Social Media Links */}
             <div className="mt-8">
-              <h3 className="text-lg font-medium mb-4">Connect with me</h3>
+              <h3 className="text-lg font-medium mb-4">Connect  with me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/arifmiah07" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-muted rounded-full p-2 hover:bg-primary/10 hover:text-primary transition-colors"
@@ -137,7 +134,7 @@ const ContactPage = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://linkedin.com/in/arifmiah01" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-muted rounded-full p-2 hover:bg-primary/10 hover:text-primary transition-colors"
@@ -149,7 +146,7 @@ const ContactPage = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/arifmiah01" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-muted rounded-full p-2 hover:bg-primary/10 hover:text-primary transition-colors"

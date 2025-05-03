@@ -59,7 +59,7 @@ export default function Navigation() {
             </Link>
           ))}
           <a 
-            href="/images/resume.pdf" 
+            href="/resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
@@ -90,7 +90,7 @@ export default function Navigation() {
               </Link>
             ))}
             <a 
-              href="/images/resume.pdf" 
+              href="/https://drive.google.com/file/d/10Cf5uKo2ewTm6aouCweC_V2M4eFbTjS0/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
               className="py-2 px-4 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-center"

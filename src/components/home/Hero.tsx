@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4">
             {/* todo: add options for download and online reading and preview  */}
             <a 
-              href="/images/resume.pdf" 
+              href="/resume.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-md bg-primary px-6 py-3 text-primary-foreground hover:bg-primary/90 transition-colors"

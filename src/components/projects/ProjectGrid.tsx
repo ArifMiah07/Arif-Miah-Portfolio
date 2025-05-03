@@ -1,4 +1,3 @@
-// components/projects/ProjectGrid.tsx
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import { Project } from '@/lib/types'

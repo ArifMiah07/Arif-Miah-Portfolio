@@ -106,7 +106,8 @@ const ProjectDetailsPage = () => {
                 </>
               )}
 
-              {/* Display markdown content if available and details are missing */}
+              {/* display markdown content if available and details are missing */}
+              {/* todo: do it later */}
               {project.content && !project.details && (
                 <div className="mt-8" dangerouslySetInnerHTML={{ __html: project.content }} />
               )}

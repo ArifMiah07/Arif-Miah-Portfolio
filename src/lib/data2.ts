@@ -8,7 +8,7 @@ export const projects: Project[] = [
     description: 'A full-featured e-commerce platform with product management, cart, checkout, and user authentication.',
     slug: 'e-commerce-platform',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'PostgreSQL'],
-    imageUrl: '/images/projects/ecommerce.jpg',
+    imageUrl: '/project-cover.png',
     demoUrl: 'https://example.com',
     githubUrl: 'https://github.com/yourusername/ecommerce',
     featured: true,
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     description: 'A collaborative task management application with real-time updates, task assignments, and progress tracking.',
     slug: 'task-management-app',
     technologies: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
-    imageUrl: '/images/projects/taskapp.jpg',
+    imageUrl: '/project-cover.png',
     demoUrl: 'https://example.com',
     githubUrl: 'https://github.com/yourusername/taskapp',
     featured: true,
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     description: 'A weather dashboard that displays current conditions and forecasts based on user location or search.',
     slug: 'weather-dashboard',
     technologies: ['React', 'OpenWeather API', 'Chart.js', 'CSS Modules'],
-    imageUrl: '/images/projects/weather.jpg',
+    imageUrl: '/project-cover.png',
     demoUrl: 'https://example.com',
     githubUrl: 'https://github.com/yourusername/weather-app',
     featured: false,
@@ -81,7 +81,7 @@ export const blogPosts: BlogPost[] = [
     tags: ['Next.js', 'TypeScript', 'Web Development'],
     readTime: 5,
     excerpt: 'Learn how to set up a new project with Next.js and TypeScript from scratch, and discover the benefits of this powerful combination.',
-    coverImage: '/images/blog/nextjs-typescript.jpg',
+    coverImage: '/blog-cover.png',
     content: 'This is the full content of the blog post...'
   },
   {
@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
     tags: ['React', 'Framer Motion', 'Animation'],
     readTime: 7,
     excerpt: 'Explore how to add beautiful animations to your React components using Framer Motion, with practical examples and best practices.',
-    coverImage: '/images/blog/framer-motion.jpg',
+    coverImage: '/blog-cover.png',
     content: 'This is the full content of the blog post...'
   },
   {
@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
     tags: ['Node.js', 'Express', 'API Development'],
     readTime: 10,
     excerpt: 'A comprehensive guide to creating a robust REST API using Node.js and Express, including authentication, validation, and error handling.',
-    coverImage: '/images/blog/nodejs-express.jpg',
+    coverImage: '/blog-cover.png',
     content: 'This is the full content of the blog post...'
   }
 ]
@@ -146,15 +146,9 @@ export const experience: Experience[] = [
 
 export const education: Education[] = [
   {
-    degree: 'Master of Computer Science',
-    institution: 'University of Technology',
-    period: '2016 - 2018',
-    description: 'Specialized in Web Technologies and Software Engineering. Completed thesis on modern JavaScript frameworks.'
-  },
-  {
     degree: 'Bachelor of Science in Computer Science',
-    institution: 'State University',
-    period: '2012 - 2016',
+    institution: 'Premier University, Chittagong',
+    period: '2025 - 2030',
     description: 'Graduated with honors. Core coursework included Data Structures, Algorithms, Database Systems, and Web Development.'
   }
 ]
@@ -167,13 +161,13 @@ export const skills: Skills = {
     { name: 'React', level: 90 },
     { name: 'Next.js', level: 85 },
     { name: 'Node.js', level: 80 },
-    { name: 'SQL', level: 75 },
+    { name: 'MongoDb', level: 75 },
     { name: 'Git', level: 85 }
   ],
   frameworks: [
     'React', 'Next.js', 'Express', 'Tailwind CSS', 'shadcn/ui',
-    'Material UI', 'Jest', 'React Testing Library', 'Framer Motion',
-    'Redux', 'Zustand'
+    'Material UI', 'React Testing Library', 'Framer Motion',
+    'Redux', 'MongoDb'
   ],
   soft: [
     'Problem Solving', 'Communication', 'Teamwork', 'Time Management',

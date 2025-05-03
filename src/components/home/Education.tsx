@@ -9,26 +9,25 @@ interface EducationItem {
 }
 
 const educationData: EducationItem[] = [
+  // {
+  //   degree: "Bachelor of Science in Computer Science and Engineering (CSE)",
+  //   institution: "Premier University, Chittagong",
+  //   duration: "2025 - 2030",
+  //   description:
+  //     "",
+  // },
   {
-    degree: "Master of Science in Computer Science",
-    institution: "University Name",
-    duration: "2020 - 2022",
-    description:
-      "Specialized in artificial intelligence and machine learning. Graduated with distinction and completed a thesis on optimization algorithms for deep learning models.",
-  },
-  {
-    degree: "Bachelor of Science in Software Engineering",
-    institution: "University Name",
-    duration: "2016 - 2020",
-    description:
-      "Focused on web development and software architecture. Completed various projects including a full-stack e-commerce platform and a real-time chat application.",
-  },
-  {
-    degree: "Web Development Bootcamp",
+    degree: "Programming Hero Level 2 Web Development",
     institution: "Coding Academy",
-    duration: "Summer 2019",
+    duration: "24 October 2024 - 25 April 2025",
+    description: "A comprehensive 6-month program designed to elevate web development skills to an advanced level. The course delves into modern technologies including TypeScript, Express.js, MongoDB, Mongoose, Redux, Next.js, SQL, PostgreSQL, Prisma, Docker, AWS, GraphQL, Vitest, and Jest. This program is tailored for developers aiming to master cutting-edge web technologies and advance their careers in the tech industry."
+  },
+  {
+    degree: "Programming Hero Level 1 Web Development",
+    institution: "Coding Academy",
+    duration: "24 December 2023 - 24 June 2024",
     description:
-      "Intensive 12-week program covering modern JavaScript frameworks, responsive design principles, and backend development with Node.js.",
+      "Intensive 6 month program covering modern JavaScript frameworks, responsive design principles, and backend development with Node.js. MongoDb",
   },
 ];
 

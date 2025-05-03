@@ -1,9 +1,11 @@
+'use client'
+
 import { Briefcase } from 'lucide-react'
 import ScrollAnimation from '../animations/ScrollAnimation'
 
 interface ExperienceItem {
   title: string
-  company: string
+  team: string
   duration: string
   description: string
   technologies: string[]
@@ -11,25 +13,18 @@ interface ExperienceItem {
 
 export const experienceData: ExperienceItem[] = [
   {
-    title: 'Senior Frontend Developer',
-    company: 'Tech Company',
-    duration: '2022 - Present',
-    description: 'Lead the development of the company\'s flagship SaaS product. Improved application performance by 40% and implemented a new design system. Mentored junior developers and established code quality standards.',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'GraphQL']
+    title: 'Full Stack Developer',
+    team: 'Logic Region',
+    duration: 'April 2025',
+    description: 'Collaborated on a team project called "Medicine Sphere" with 5 team members. Contributed to both frontend and backend development, as well as database design and management.',
+    technologies: ['React.js', 'Next.js', 'Tailwind CSS', 'Shadcn UI', 'TypeScript', 'Redux RTK Query', 'Node.js', 'Express.js', 'Mongoose', 'Zod', 'Postman', 'JWT', 'NextAuth', 'Vercel']
   },
   {
-    title: 'Frontend Developer',
-    company: 'Digital Agency',
-    duration: '2020 - 2022',
-    description: 'Worked with cross-functional teams to deliver web applications for multiple clients. Developed responsive and accessible user interfaces using modern web technologies. Collaborated closely with designers to implement pixel-perfect designs.',
-    technologies: ['React', 'JavaScript', 'CSS/SCSS', 'RESTful APIs', 'Git']
-  },
-  {
-    title: 'Web Developer Intern',
-    company: 'Startup Inc.',
-    duration: '2019 - 2020',
-    description: 'Assisted in the development of various web projects. Learned modern development workflows and collaborated with senior developers to implement new features and fix bugs.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'PHP']
+    title: 'Full Stack Developer',
+    team: 'Revive 11',
+    duration: 'April 2025',
+    description: 'Worked on a collaborative project called "Bicycle Sphere" with a 5-member team. Took responsibility for both backend and frontend development, along with database management.',
+    technologies: ['React.js', 'Tailwind CSS', 'Shadcn UI', 'React Router DOM', 'TypeScript', 'Redux RTK Query', 'Node.js', 'Express.js', 'Mongoose', 'Zod', 'Postman', 'JWT', 'Firebase', 'Vercel']
   }
 ]
 
@@ -56,7 +51,7 @@ export default function Experience() {
                       {item.duration}
                     </span>
                   </div>
-                  <p className="mb-4 text-primary">{item.company}</p>
+                  <p className="mb-4 text-primary">{item.team}</p>
                   <p className="mb-4 text-muted-foreground">{item.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {item.technologies.map((tech, techIndex) => (

@@ -1,4 +1,3 @@
-// components/layout/Footer.tsx
 import Link from 'next/link'
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react'
 
@@ -63,7 +62,7 @@ export default function Footer() {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://twitter.com/arifmiah101"
+                href="https://twitter.com/arifmiah01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -72,7 +71,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </a>
               <a
-                href="https://linkedin.com/in/arifmiah101"
+                href="https://linkedin.com/in/arifmiah01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -81,7 +80,7 @@ export default function Footer() {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a
-                href="mailto:arifmiah.me101@example.com"
+                href="mailto:arifmiah.me101@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-6 w-6" />
