@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img width="922" alt="image" src="https://github.com/ArifMiah07/Arif-Miah-Portfolio/blob/main/public/images/img-for-github.png" /># 🧑‍💻 Arif Miah — Developer Portfolio
 
-## Getting Started
+Welcome to the codebase of my personal developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This project showcases my work, blog articles, skills, experience, and more in a modern, performant, and responsive web app.
 
-First, run the development server:
+🔗 **Live Site:** [arif-miah-portfolio.vercel.app](https://arif-miah-portfolio.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- 🚀 Built with **Next.js (App Router)** for fast routing and SEO
+- 💡 Type-safe with **TypeScript**
+- 🎨 Styled using **Tailwind CSS**
+- 🧩 Reusable & scalable component architecture
+- 🖼️ Project and Blog detail pages with dynamic routing
+- 🪄 Custom animations and transitions
+- 📱 Fully responsive across all devices
+- 🌙 Dark mode ready
+- 🧠 Content-driven structure with well-organized sections
+
+---
+
+## 🗂️ Project Structure
+```md
+portfolio/
+├── app/
+│   ├── about/
+│   │   └── page.tsx
+│   ├── blog/
+│   │   ├── [slug]/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── projects/
+│   │   ├── [slug]/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── animations/
+│   │   ├── FadeIn.tsx
+│   │   ├── RevealText.tsx
+│   │   └── ScrollAnimation.tsx
+│   ├── layout/
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   └── Navigation.tsx
+│   ├── home/
+│   │   ├── Banner.tsx
+│   │   ├── Education.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Hero.tsx
+│   │   ├── ProjectsPreview.tsx
+│   │   └── Skills.tsx
+│   ├── projects/
+│   │   ├── ProjectCard.tsx
+│   │   ├── ProjectDetails.tsx
+│   │   └── ProjectGrid.tsx
+│   ├── blog/
+│   │   ├── BlogCard.tsx
+│   │   ├── BlogList.tsx
+│   │   └── RecentPosts.tsx
+│   └── ui/
+│       ├── Button.tsx
+│       ├── Card.tsx
+│       └── ... (shadcn UI components)
+├── lib/
+│   ├── data.ts
+│   └── types.ts
+├── public/
+│   ├── images/
+│   │   ├── projects/
+│   │   ├── resume.pdf
+│   │   └── profile.jpg
+│   └── favicon.ico
+├── styles/
+│   └── globals.css
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+└── next.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Components**: shadcn/ui, custom UI components
+- **Animations**: Framer Motion, custom hooks
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Version Control**: Git & GitHub
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+<!--- ## 📸 Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![img](https://github.com/ArifMiah07/Arif-Miah-Portfolio/blob/main/public/images/img-for-github.png) --->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧑‍💼 About Me
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I'm **Arif Miah**, a full-stack developer passionate about crafting clean and functional web experiences. This portfolio is my digital playground — a space to showcase projects, write blogs, and reflect my growth as a developer.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📬 Contact
+
+If you'd like to reach out:
+
+- **Portfolio**: [arif-miah-portfolio](https://arif-miah-portfolio.vercel.app/)
+- **Email**: [arifmiah](arifmiah.me101@gmail.com)
+- **LinkedIn**: [arifmiah](https://www.linkedin.com/in/arifmiah01/)
+- **GitHub**: [@arifmiah](https://github.com/arifmiah07)
+
+---
+
+## 🧾 License
+
+This project is open source and free to use for educational or personal inspiration. Commercial use requires permission.
+
+---
+
+> Made with ❤️ and a lot of `next.js`
