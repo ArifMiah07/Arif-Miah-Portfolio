@@ -13,22 +13,35 @@ const skillsData: SkillCategory[] = [
   {
     icon: <Code size={24} />,
     title: 'Frontend',
-    skills: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'SASS/SCSS']
+    skills: [
+      'HTML', 'CSS', 'SCSS', 'Tailwind', 'Bootstrap',
+      'JavaScript ES6+', 'TypeScript', 'Next.js', 'React.js', 'React Router DOM',
+      'Redux', 'Redux Toolkit', 'Tanstack Query',
+      'Material UI', 'Shadcn UI', 'Framer Motion'
+    ]
   },
   {
     icon: <Server size={24} />,
     title: 'Backend',
-    skills: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'RESTful APIs', 'GraphQL', 'Firebase', 'Supabase']
+    skills: [
+      'Node.js', 'Express', 'Firebase Auth', 'JWT', 'Stripe', 'RESTful APIs', 'Zod'
+    ]
   },
   {
     icon: <Palette size={24} />,
-    title: 'Design',
-    skills: ['Figma', 'Adobe XD', 'Responsive Design', 'User Experience', 'UI Design', 'Animation', 'Design Systems']
+    title: 'Database',
+    skills: [
+      'MongoDB', 'Mongoose', 'DBMS', 'Database Design',
+      'Data Modeling', 'Indexing & Optimization'
+    ]
   },
   {
     icon: <Sparkles size={24} />,
-    title: 'Other',
-    skills: ['Git', 'GitHub', 'Vercel', 'Netlify', 'Jest', 'CI/CD', 'Performance Optimization', 'SEO']
+    title: 'Others',
+    skills: [
+      'C/C++', 'Python', 'Git', 'GitHub', 'Notion', 'Google Docs', 'Linux',
+      'GIMP', 'Inkscape', 'CapCut', 'Figma', 'Photopea', 'Postman'
+    ]
   }
 ]
 

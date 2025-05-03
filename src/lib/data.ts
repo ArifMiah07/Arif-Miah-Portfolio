@@ -263,6 +263,44 @@ export const projects: Project[] = [
         "This project deepened my understanding of real-time communication, Firebase integration, and handling theme switching dynamically with Next.js. I also refined my skills in building accessible, responsive UIs with Tailwind CSS.",
     },
   },
+  {
+    id: "7",
+    title: "SmartKidz – Interactive Learning for Curious Minds",
+    description:
+      "A playful and secure educational platform designed to make learning fun and measurable for kids, with tools for parents to guide and monitor progress.",
+    slug: "smartkidz",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Firebase",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React Router",
+    ],
+    imageUrl: "/project-cover.png",
+    demoUrl: "https://smart-kidz-95c4e.web.app",
+    githubUrl: "https://github.com/arifmiah07/smart-kidz",
+    featured: true,
+    details: {
+      overview:
+        "SmartKidz is an engaging and interactive learning platform built for children, offering educational modules and games while empowering parents with progress tracking and content control.",
+      challenges:
+        "Designing an interface that appeals to both children and adults while balancing engagement with educational value was a key challenge. Additionally, ensuring secure data handling and reliable tracking mechanisms required careful backend planning.",
+      features: [
+        "Interactive learning modules for multiple subjects",
+        "Educational mini-games tied to curriculum content",
+        "Parental controls for safe and customizable access",
+        "Progress tracking dashboard for parents and educators",
+        "Kid-friendly and responsive UI with bright visuals",
+        "Secure authentication and data storage with Firebase and MongoDB",
+      ],
+      learnings:
+        "This project sharpened my skills in building user-centric platforms with dual personas (children and parents). I also deepened my knowledge in integrating Firebase with custom backend APIs, and crafting engaging UI using DaisyUI and Tailwind CSS.",
+    },
+  }
+  
 ];
 
 

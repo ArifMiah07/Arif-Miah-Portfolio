@@ -8,14 +8,7 @@ interface EducationItem {
   description: string;
 }
 
-const educationData: EducationItem[] = [
-  // {
-  //   degree: "Bachelor of Science in Computer Science and Engineering (CSE)",
-  //   institution: "Premier University, Chittagong",
-  //   duration: "2025 - 2030",
-  //   description:
-  //     "",
-  // },
+export const educationData: EducationItem[] = [
   {
     degree: "Programming Hero Level 2 Web Development",
     institution: "Coding Academy",

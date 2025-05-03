@@ -91,7 +91,7 @@ export default function Hero() {
             modern web technologies.
           </p>
           <div className="flex flex-wrap gap-4">
-            {/* todo: add options for download and online reading and preview  */}
+            {/* todo:   */}
             <div className="inline-block">
               <Select onValueChange={handleSelectChange}>
                 <SelectTrigger

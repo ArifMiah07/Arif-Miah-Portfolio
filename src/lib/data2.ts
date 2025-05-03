@@ -41,67 +41,99 @@ export const blogPosts: BlogPost[] = [
 
 export const experience: Experience[] = [
   {
-    title: 'Senior Frontend Developer',
-    company: 'Tech Solutions Inc.',
-    period: '2021 - Present',
+    title: 'Full Stack Developer',
+    company: 'Logic Region',
+    period: 'April 2025',
     responsibilities: [
-      'Developed and maintained multiple React applications with TypeScript',
-      'Implemented responsive designs and animations using Tailwind CSS and Framer Motion',
-      'Collaborated with UX/UI designers to implement pixel-perfect interfaces',
-      'Mentored junior developers and conducted code reviews'
+      'Contributed to the development of "Medicine Sphere", a team-based full-stack web application',
+      'Handled both frontend and backend tasks using React, Next.js, Node.js, and Express.js',
+      'Designed and managed the MongoDB database schema for efficient medicine catalog storage',
+      'Implemented authentication and role-based access using JWT and NextAuth',
+      'Utilized Redux RTK Query for optimized API communication and state management'
+    ],
+    technologies: [
+      'React.js', 'Next.js', 'Tailwind CSS', 'Shadcn UI', 'TypeScript', 'Redux RTK Query',
+      'Node.js', 'Express.js', 'Mongoose', 'Zod', 'Postman', 'JWT', 'NextAuth', 'Vercel'
     ]
   },
   {
-    title: 'Web Developer',
-    company: 'Digital Agency XYZ',
-    period: '2018 - 2021',
+    title: 'Full Stack Developer',
+    company: 'Revive 11',
+    period: 'April 2025',
     responsibilities: [
-      'Built client websites using React and Next.js',
-      'Implemented e-commerce functionality using Shopify and custom solutions',
-      'Optimized website performance and SEO',
-      'Worked directly with clients to gather requirements and provide technical solutions'
-    ]
-  },
-  {
-    title: 'Frontend Intern',
-    company: 'StartUp Co.',
-    period: '2017 - 2018',
-    responsibilities: [
-      'Assisted in developing UI components using HTML, CSS, and JavaScript',
-      'Fixed bugs and implemented minor features',
-      'Participated in daily stand-ups and sprint planning',
-      'Learned modern frontend development practices and tooling'
+      'Worked collaboratively on "Bicycle Sphere", a full-stack web application for managing bicycle sales and services',
+      'Built reusable UI components with Shadcn UI and handled dynamic routing with React Router',
+      'Managed the backend API and database models using Express and Mongoose',
+      'Implemented secure login/signup features using Firebase Authentication and JWT',
+      'Deployed the project to Vercel and tested API endpoints thoroughly with Postman'
+    ],
+    technologies: [
+      'React.js', 'Tailwind CSS', 'Shadcn UI', 'React Router DOM', 'TypeScript', 'Redux RTK Query',
+      'Node.js', 'Express.js', 'Mongoose', 'Zod', 'Postman', 'JWT', 'Firebase', 'Vercel'
     ]
   }
-]
+];
+
 
 export const education: Education[] = [
   {
-    degree: 'Bachelor of Science in Computer Science',
+    degree: 'Bachelor of Science in Computer Science (Expected)',
     institution: 'Premier University, Chittagong',
-    period: '2025 - 2030',
-    description: 'Graduated with honors. Core coursework included Data Structures, Algorithms, Database Systems, and Web Development.'
-  }
+    period: '2025 - 2030 (Expected)',
+    description: 'Starting my undergraduate journey in late 2025. I plan to focus on core areas such as Data Structures, Algorithms, Database Systems, and Full-Stack Web Development.'
+  },
+  {
+    degree: "Programming Hero Level 2 Web Development",
+    institution: "Coding Academy",
+    period: "24 October 2024 - 25 April 2025",
+    description: "A comprehensive 6-month program designed to elevate web development skills to an advanced level. The course delves into modern technologies including TypeScript, Express.js, MongoDB, Mongoose, Redux, Next.js, SQL, PostgreSQL, Prisma, Docker, AWS, GraphQL, Vitest, and Jest. This program is tailored for developers aiming to master cutting-edge web technologies and advance their careers in the tech industry."
+  },
+  {
+    degree: "Programming Hero Level 1 Web Development",
+    institution: "Coding Academy",
+    period: "24 December 2023 - 24 June 2024",
+    description:
+      "Intensive 6 month program covering modern JavaScript frameworks, responsive design principles, and backend development with Node.js. MongoDb",
+  },
 ]
 
 export const skills: Skills = {
   technical: [
-    { name: 'JavaScript', level: 95 },
+    { name: 'JavaScript (ES6+)', level: 95 },
     { name: 'TypeScript', level: 90 },
-    { name: 'HTML/CSS', level: 95 },
-    { name: 'React', level: 90 },
-    { name: 'Next.js', level: 85 },
-    { name: 'Node.js', level: 80 },
-    { name: 'MongoDb', level: 75 },
-    { name: 'Git', level: 85 }
+    { name: 'HTML/CSS/SCSS', level: 95 },
+    { name: 'React.js', level: 90 },
+    { name: 'Next.js', level: 90 },
+    { name: 'Redux / RTK Query', level: 85 },
+    { name: 'Node.js', level: 73 },
+    { name: 'Express.js', level: 80 },
+    { name: 'MongoDB / Mongoose', level: 80 },
+    { name: 'Firebase Auth / JWT', level: 75 },
+    { name: 'Git & GitHub', level: 90 }
   ],
   frameworks: [
-    'React', 'Next.js', 'Express', 'Tailwind CSS', 'shadcn/ui',
-    'Material UI', 'React Testing Library', 'Framer Motion',
-    'Redux', 'MongoDb'
+    'React.js',
+    'Next.js',
+    'Express.js',
+    'Tailwind CSS',
+    'shadcn/ui',
+    'Material UI',
+    'Framer Motion',
+    'Redux Toolkit',
+    'RTK Query',
+    'Zod',
+    'Firebase',
+    'Stripe',
+    'Postman'
   ],
   soft: [
-    'Problem Solving', 'Communication', 'Teamwork', 'Time Management',
-    'Adaptability', 'Attention to Detail', 'Creativity', 'Critical Thinking'
+    'Problem Solving',
+    'Communication',
+    'Teamwork',
+    'Time Management',
+    'Adaptability',
+    'Attention to Detail',
+    'Creativity',
+    'Critical Thinking'
   ]
 }

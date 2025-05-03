@@ -58,18 +58,27 @@ export interface BlogPost {
   }
   
   // Experience type
+  // export interface Experience {
+  //   title: string;
+  //   company: string;
+  //   period: string;
+  //   responsibilities: string[];
+  // }
   export interface Experience {
     title: string;
     company: string;
     period: string;
     responsibilities: string[];
+    technologies: string[];
   }
+  
   
   // Education type
   export interface Education {
     degree: string;
     institution: string;
-    period: string;
+    period?: string;
+    duration?: string;
     description: string;
   }
   
