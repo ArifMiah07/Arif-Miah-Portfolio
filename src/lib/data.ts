@@ -105,7 +105,7 @@ With the right approach and tools, you can create beautiful and performant anima
 ];
 
 // Sample project data
-const projects: Project[] = [
+export const projects: Project[] = [
   {
     id: "1",
     title: "Clyst",

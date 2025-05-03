@@ -4,9 +4,10 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import { Download } from 'lucide-react'
+import { Download, View } from 'lucide-react'
 import { Education, Experience, Skills } from '@/lib/types';
 import profileImage from '../../../public/arifmiah.png'
+import googleDrive from '../../../public/google-drive.png'
 // import { Metadata } from 'next'
 // Define props type
 interface AboutContentProps {
@@ -68,6 +69,26 @@ const AboutContent = ({
               <Button className="group">
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download Resume
+              </Button>
+            </a>
+          </div>
+          <div className="pt-4">
+            <a href="https://drive.google.com/file/d/10Cf5uKo2ewTm6aouCweC_V2M4eFbTjS0/view?usp=sharing">
+              <Button className="group">
+                <View />
+                <span>
+               Preview Here
+                </span>
+              </Button>
+            </a>
+          </div>
+          <div className="pt-4">
+            <a href="https://drive.google.com/file/d/10Cf5uKo2ewTm6aouCweC_V2M4eFbTjS0/view?usp=sharing">
+              <Button className="group">
+                <Image className="mr-2 h-4 w-4 group-hover:animate-bounce" src={googleDrive || 'placeholder.png'} alt='google drive icon' />
+                <span>
+                See Resume
+                </span>
               </Button>
             </a>
           </div>

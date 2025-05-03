@@ -1,76 +1,7 @@
 
-import { Project, BlogPost, Experience, Education, Skills } from './types'
+import { BlogPost, Experience, Education, Skills } from './types'
   
-export const projects: Project[] = [
-  {
-    id: '1',
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce platform with product management, cart, checkout, and user authentication.',
-    slug: 'e-commerce-platform',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'PostgreSQL'],
-    imageUrl: '/project-cover.png',
-    demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com/yourusername/ecommerce',
-    featured: true,
-    details: {
-      overview: 'This e-commerce platform provides a complete solution for online stores. Built with Next.js and TypeScript, it offers a fast, responsive shopping experience with server-side rendering for optimal SEO performance.',
-      challenges: 'Implementing a secure payment gateway integration and optimizing the performance for large product catalogs were the main challenges in this project.',
-      features: [
-        'User authentication and profile management',
-        'Product search and filtering',
-        'Shopping cart and wishlist functionality',
-        'Secure checkout process',
-        'Order history and tracking',
-        'Admin dashboard for product and order management'
-      ]
-    }
-  },
-  {
-    id: '2',
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, task assignments, and progress tracking.',
-    slug: 'task-management-app',
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
-    imageUrl: '/project-cover.png',
-    demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com/yourusername/taskapp',
-    featured: true,
-    details: {
-      overview: 'This task management application helps teams collaborate efficiently by providing real-time updates on task progress. It features a drag-and-drop interface and integrates with popular productivity tools.',
-      challenges: 'Implementing real-time synchronization across multiple clients and ensuring data consistency were significant challenges.',
-      features: [
-        'Kanban board with drag-and-drop functionality',
-        'Task assignments and deadlines',
-        'Real-time notifications',
-        'Team collaboration features',
-        'Progress tracking and reporting',
-        'Integration with calendar apps'
-      ]
-    }
-  },
-  {
-    id: '3',
-    title: 'Weather Dashboard',
-    description: 'A weather dashboard that displays current conditions and forecasts based on user location or search.',
-    slug: 'weather-dashboard',
-    technologies: ['React', 'OpenWeather API', 'Chart.js', 'CSS Modules'],
-    imageUrl: '/project-cover.png',
-    demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com/yourusername/weather-app',
-    featured: false,
-    details: {
-      overview: 'This weather dashboard provides users with accurate weather forecasts and conditions. It uses the OpenWeather API to fetch data and presents it in an intuitive, visually appealing interface.',
-      features: [
-        'Current weather conditions display',
-        '5-day forecast with hourly breakdowns',
-        'Location-based weather detection',
-        'Search functionality for any city worldwide',
-        'Interactive weather maps',
-        'Historical weather data visualization'
-      ]
-    }
-  }
-]
+
 
 export const blogPosts: BlogPost[] = [
   {

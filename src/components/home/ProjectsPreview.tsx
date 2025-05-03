@@ -7,46 +7,10 @@ import Link from 'next/link'
 import ProjectCard from '@/components/projects/ProjectCard'
 import { Button } from '@/components/ui/button'
 import { Project } from '@/lib/types'
+import { projects } from '@/lib/data'
 
 // static data :todo::add backend
-const defaultProjects: Project[] = [
-  {
-    id: "1",
-    title: "E-commerce Platform",
-    description: "A fully responsive e-commerce platform built with Next.js and Tailwind CSS.",
-    slug: "ecommerce-platform",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    imageUrl: "/images/projects/ecommerce.jpg",
-    featured: true,
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/ecommerce",
-    date: "2023-09-01",
-  },
-  {
-    id: "2",
-    title: "Portfolio Website",
-    description: "A clean and modern portfolio website with dark mode support.",
-    slug: "portfolio-website",
-    technologies: ["React", "Next.js", "Framer Motion", "Tailwind CSS"],
-    imageUrl: "/images/projects/portfolio.jpg",
-    featured: true,
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/portfolio",
-    date: "2023-10-15",
-  },
-  {
-    id: "3",
-    title: "Task Management App",
-    description: "A drag-and-drop task management application with user authentication.",
-    slug: "task-management",
-    technologies: ["React", "Firebase", "Tailwind CSS", "DnD Kit"],
-    imageUrl: "/images/projects/tasks.jpg",
-    featured: true,
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/tasks",
-    date: "2023-07-20",
-  }
-];
+const defaultProjects: Project[] = projects;
 
 interface ProjectsPreviewProps {
   projects?: Project[]
