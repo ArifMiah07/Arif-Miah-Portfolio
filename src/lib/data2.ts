@@ -1,44 +1,6 @@
 
-import { BlogPost, Experience, Education, Skills } from './types'
+import { Experience, Education, Skills } from './types'
   
-
-
-export const blogPosts: BlogPost[] = [
-  {
-    id: '1',
-    title: 'Getting Started with Next.js and TypeScript',
-    slug: 'getting-started-with-nextjs-typescript',
-    date: '2023-06-15',
-    tags: ['Next.js', 'TypeScript', 'Web Development'],
-    readTime: 5,
-    excerpt: 'Learn how to set up a new project with Next.js and TypeScript from scratch, and discover the benefits of this powerful combination.',
-    coverImage: '/blog-cover.png',
-    content: 'This is the full content of the blog post...'
-  },
-  {
-    id: '2',
-    title: 'Animating React Components with Framer Motion',
-    slug: 'animating-react-components-framer-motion',
-    date: '2023-07-20',
-    tags: ['React', 'Framer Motion', 'Animation'],
-    readTime: 7,
-    excerpt: 'Explore how to add beautiful animations to your React components using Framer Motion, with practical examples and best practices.',
-    coverImage: '/blog-cover.png',
-    content: 'This is the full content of the blog post...'
-  },
-  {
-    id: '3',
-    title: 'Building a REST API with Node.js and Express',
-    slug: 'building-rest-api-nodejs-express',
-    date: '2023-08-10',
-    tags: ['Node.js', 'Express', 'API Development'],
-    readTime: 10,
-    excerpt: 'A comprehensive guide to creating a robust REST API using Node.js and Express, including authentication, validation, and error handling.',
-    coverImage: '/blog-cover.png',
-    content: 'This is the full content of the blog post...'
-  }
-]
-
 export const experience: Experience[] = [
   {
     title: 'Full Stack Developer',
