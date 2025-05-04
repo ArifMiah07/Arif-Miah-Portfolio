@@ -1,117 +1,20 @@
-import { BlogPost, Project } from "./types";
-
-// Sample blog data
-const blogPosts: BlogPost[] = [
-  {
-    id: "1",
-    title: "Understanding Modern Frontend Development",
-    excerpt:
-      "Exploring the latest trends and tools in frontend development including React, Next.js, and TypeScript.",
-    slug: "understanding-modern-frontend-development",
-    coverImage: "/blog-cover.png",
-    date: "2024-04-15",
-    readTime: "5 min read",
-    tags: ["React", "Next.js", "TypeScript"],
-    content: `
-# Understanding Modern Frontend Development
-
-Frontend development has evolved significantly over the past few years. In this post, we'll explore the latest trends and tools in the field.
-
-## The Rise of React and Component-Based Architecture
-
-React has revolutionized the way we build user interfaces by introducing a component-based architecture. This approach allows developers to create reusable UI elements that can be composed to build complex applications.
-
-## The Power of Next.js
-
-Next.js has emerged as a powerful framework for building React applications. It provides features like server-side rendering, static site generation, and API routes out of the box.
-
-## TypeScript: Adding Type Safety to JavaScript
-
-TypeScript has gained immense popularity for adding static typing to JavaScript. This helps catch errors early in the development process and improves code quality.
-
-## Conclusion
-
-Modern frontend development is all about creating fast, scalable, and maintainable applications. By leveraging tools like React, Next.js, and TypeScript, developers can build better experiences for users.
-    `,
-  },
-  {
-    id: "2",
-    title: "Building Responsive UIs with Tailwind CSS",
-    excerpt:
-      "How to create beautiful, responsive user interfaces efficiently using Tailwind CSS utility classes.",
-    slug: "building-responsive-uis-with-tailwind",
-    coverImage: "/blog-cover.png",
-    date: "2024-03-22",
-    readTime: "4 min read",
-    tags: ["CSS", "Tailwind", "UI Design"],
-    content: `
-# Building Responsive UIs with Tailwind CSS
-
-Tailwind CSS has changed the way developers approach styling web applications. In this post, we'll explore how to use Tailwind effectively.
-
-## The Utility-First Approach
-
-Unlike traditional CSS frameworks, Tailwind uses a utility-first approach. This means you apply small, single-purpose classes directly in your HTML.
-
-## Responsive Design Made Easy
-
-Tailwind makes responsive design straightforward with its built-in breakpoint prefixes. You can easily specify different styles for different screen sizes.
-
-## Customization Options
-
-Tailwind is highly customizable. You can configure everything from colors and spacing to typography and breakpoints in the configuration file.
-
-## Conclusion
-
-Tailwind CSS provides a powerful set of tools for building responsive and maintainable user interfaces. Its utility-first approach can significantly speed up your development process.
-    `,
-  },
-  {
-    id: "3",
-    title: "Animations in React: A Deep Dive",
-    excerpt:
-      "Learn how to implement smooth animations in React applications using libraries like Framer Motion.",
-    slug: "animations-in-react",
-    coverImage: "/blog-cover.png",
-    date: "2024-02-18",
-    readTime: "7 min read",
-    tags: ["React", "Animation", "Framer Motion"],
-    content: `
-# Animations in React: A Deep Dive
-
-Adding animations to React applications can significantly enhance the user experience. Let's explore how to implement them effectively.
-
-## Why Animations Matter
-
-Animations aren't just about aesthetics; they provide visual feedback, guide user attention, and create a sense of continuity in the UI.
-
-## Introduction to Framer Motion
-
-Framer Motion is a powerful animation library for React that makes it easy to implement complex animations with minimal code.
-
-## Basic Animation Techniques
-
-We'll cover basic animation techniques like transitions, keyframes, and gestures to bring your components to life.
-
-## Performance Considerations
-
-When implementing animations, it's important to consider performance. We'll discuss best practices for keeping your animations smooth and efficient.
-
-## Conclusion
-
-With the right approach and tools, you can create beautiful and performant animations that enhance your React applications.
-    `,
-  },
-];
+import { Project } from "./types";
 
 // Sample project data
 export const projects: Project[] = [
   {
     id: "1",
     title: "Clyst",
-    description: "A dual-mode social media + private journaling app enabling public expression and private reflection.",
+    description:
+      "A dual-mode social media + private journaling app enabling public expression and private reflection.",
     slug: "clyst",
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Supabase", "Clerk"],
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Supabase",
+      "Clerk",
+    ],
     imageUrl: "/project-cover.png",
     demoUrl: "https://iclyst.web.app/",
     githubUrl: "https://github.com/arifmiah07/clyst",
@@ -135,9 +38,16 @@ export const projects: Project[] = [
   {
     id: "2",
     title: "Color Contrast Checker",
-    description: "An advanced accessibility tool to test text readability on deeply nested background layers.",
+    description:
+      "An advanced accessibility tool to test text readability on deeply nested background layers.",
     slug: "color-contrast-checker",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Zod", "Google Analytics"],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zod",
+      "Google Analytics",
+    ],
     imageUrl: "/project-cover.png",
     demoUrl: "https://contrasttree.vercel.app/",
     githubUrl: "https://github.com/ArifMiah07/color-contrast-checker",
@@ -161,9 +71,17 @@ export const projects: Project[] = [
   {
     id: "3",
     title: "Medi-Sphere",
-    description: "A complete medicine management app with search, filter, sort, and admin CRUD features.",
+    description:
+      "A complete medicine management app with search, filter, sort, and admin CRUD features.",
     slug: "medi-sphere",
-    technologies: ["React", "Redux Toolkit", "TypeScript", "Express", "MongoDB", "Cloudinary"],
+    technologies: [
+      "React",
+      "Redux Toolkit",
+      "TypeScript",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+    ],
     imageUrl: "/project-cover.png",
     demoUrl: "https://medi-sphere-five.vercel.app/",
     githubUrl: "https://github.com/ArifMiah07/medicine-sphere-client",
@@ -187,7 +105,8 @@ export const projects: Project[] = [
   {
     id: "4",
     title: "Cycle-Sphere",
-    description: "A bicycle marketplace app supporting discovery, listings, and filtering.",
+    description:
+      "A bicycle marketplace app supporting discovery, listings, and filtering.",
     slug: "cycle-sphere",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     imageUrl: "/project-cover.png",
@@ -213,7 +132,8 @@ export const projects: Project[] = [
   {
     id: "5",
     title: "XONXONI F&F",
-    description: "A local-first social platform for residents of XONXONI to share updates and connect.",
+    description:
+      "A local-first social platform for residents of XONXONI to share updates and connect.",
     slug: "xonxoni-ff",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     imageUrl: "/project-cover.png",
@@ -239,9 +159,17 @@ export const projects: Project[] = [
   {
     id: "6",
     title: "Vibe-Chat",
-    description: "A modern, real-time chat application with secure authentication and customizable themes.",
+    description:
+      "A modern, real-time chat application with secure authentication and customizable themes.",
     slug: "vibe-chat",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "shadcn/ui", "Firebase"],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Clerk",
+      "shadcn/ui",
+      "Firebase",
+    ],
     imageUrl: "/project-cover.png",
     demoUrl: "https://github.com/arifmiah07/vibe-chat",
     githubUrl: "https://github.com/arifmiah07/vibe-chat",
@@ -299,14 +227,12 @@ export const projects: Project[] = [
       learnings:
         "This project sharpened my skills in building user-centric platforms with dual personas (children and parents). I also deepened my knowledge in integrating Firebase with custom backend APIs, and crafting engaging UI using DaisyUI and Tailwind CSS.",
     },
-  }
-  
+  },
 ];
-
 
 // Get all projects
 export const getAllProjects = async (): Promise<Project[]> => {
-  // todo: backend API 
+  // todo: backend API
   return projects;
 };
 
@@ -314,34 +240,14 @@ export const getAllProjects = async (): Promise<Project[]> => {
 export const getProjectBySlug = async (
   slug: string
 ): Promise<Project | null> => {
-  // todo: backend API 
+  // todo: backend API
   return projects.find((project) => project.slug === slug) || null;
 };
 
 // Get featured projects
 export const getFeaturedProjects = async (): Promise<Project[]> => {
-// todo: backend API 
+  // todo: backend API
   return projects.filter((project) => project.featured);
 };
 
-// Get all blog posts
-export const getAllBlogPosts = async (): Promise<BlogPost[]> => {
-// todo: backend API 
-  return blogPosts;
-};
 
-// Get a single blog post by slug
-export const getBlogPostBySlug = async (
-  slug: string
-): Promise<BlogPost | null> => {
-// todo: backend API 
-  return blogPosts.find((post) => post.slug === slug) || null;
-};
-
-// Get recent blog posts
-export const getRecentBlogPosts = async (
-  count: number = 3
-): Promise<BlogPost[]> => {
-  // todo: backend API, sort by date
-  return blogPosts.slice(0, count);
-};

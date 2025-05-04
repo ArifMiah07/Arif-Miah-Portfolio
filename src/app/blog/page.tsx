@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { getAllBlogPosts } from '@/lib/data'
 import { BlogPost } from '@/lib/types'
 import BlogList from '@/components/blog/BlogList'
 import { Input } from '@/components/ui/input'
 import { Search } from 'lucide-react'
+import { getAllBlogPosts } from '@/utils/blog-post'
 
 const BlogPage = () => {
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([])

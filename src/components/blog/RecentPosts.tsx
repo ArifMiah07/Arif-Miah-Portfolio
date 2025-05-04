@@ -1,14 +1,14 @@
-// components/blog/RecentPosts.tsx
 'use client'
 
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { BlogPost } from '@/lib/types'
-import { getRecentBlogPosts } from '@/lib/data'
+
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import BlogCard from './BlogCard'
+import { getRecentBlogPosts } from '@/utils/blog-post'
 
 const RecentPosts = () => {
   const [posts, setPosts] = useState<BlogPost[]>([])

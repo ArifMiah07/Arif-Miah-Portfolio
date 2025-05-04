@@ -1,4 +1,3 @@
-// components/blog/BlogCard.tsx
 'use client'
 
 import React from 'react'

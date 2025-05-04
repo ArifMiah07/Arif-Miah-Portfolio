@@ -1,4 +1,3 @@
-// components/blog/BlogList.tsx
 import React from 'react'
 import { BlogPost } from '@/lib/types'
 import BlogCard from './BlogCard'

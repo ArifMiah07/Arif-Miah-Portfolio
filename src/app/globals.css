@@ -112,6 +112,10 @@
   --sidebar-ring: oklch(0.527 0.154 150.069);
 }
 
+.prose pre {
+  @apply bg-muted p-4 rounded-lg overflow-x-auto text-sm;
+}
+
 
 @layer base {
   * {

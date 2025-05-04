@@ -1,12 +1,22 @@
-
-
 // Blog post type
+export interface ICodeSnippet {
+  codeSnippetImageLink?: string[];
+  CodeSnippetCode?: string;
+}
+export interface IParagraph {
+  paragraph: string;
+  paragraphImageLink?: string;
+  codeSnippet?: ICodeSnippet;
+}
+export type TParagraphN = {
+  paragraphN: IParagraph;
+}
 export interface BlogPost {
     id: string;
     title: string;
     slug: string;
     excerpt: string;
-    content: string;
+    content: TParagraphN[];
     date: string;
     coverImage: string;
     tags: string[];

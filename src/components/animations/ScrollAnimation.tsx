@@ -1,4 +1,3 @@
-// components/animations/ScrollAnimation.tsx
 'use client'
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
