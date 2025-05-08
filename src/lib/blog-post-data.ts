@@ -8,7 +8,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Exploring the latest trends and tools in frontend development including React, Next.js, and TypeScript.",
     slug: "understanding-modern-frontend-development",
-    coverImage: "/blog-cover.png",
+    coverImage: "/blog1.png",
     date: "2024-04-15",
     readTime: "5 min read",
     tags: ["React", "Next.js", "TypeScript"],
@@ -51,7 +51,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "How to create beautiful, responsive user interfaces efficiently using Tailwind CSS utility classes.",
     slug: "building-responsive-uis-with-tailwind",
-    coverImage: "/blog-cover.png",
+    coverImage: "/blog2.png",
     date: "2024-03-22",
     readTime: "4 min read",
     tags: ["CSS", "Tailwind", "UI Design"],
@@ -94,7 +94,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Learn how to implement smooth animations in React applications using libraries like Framer Motion.",
     slug: "animations-in-react",
-    coverImage: "/blog-cover.png",
+    coverImage: "/blog3.png",
     date: "2024-02-18",
     readTime: "7 min read",
     tags: ["React", "Animation", "Framer Motion"],
