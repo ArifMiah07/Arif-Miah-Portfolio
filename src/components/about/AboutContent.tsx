@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Download, View } from "lucide-react";
 import { Education, Experience, Skills } from "@/lib/types";
-import profileImage from "../../../public/arifmiah.png";
+// import profileImage from "../../../public/arifmiah.png";
 import googleDriveWhite from "../../../public/assets/icons8-google-drive.svg";
 import googleDriveBlack from "../../../public/assets/icons8-google-drive-black.svg";
 
@@ -171,14 +171,32 @@ const AboutContent = ({ education, experience, skills }: AboutContentProps) => {
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}>
-          <div className="relative h-80 w-full overflow-hidden rounded-lg">
-            <Image
-              src={profileImage || "placeholder.png"}
-              alt=""
-              fill
-              className="object-cover"
-            />
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="flex items-center justify-center">
+          <div className="relative h-80 w-80 bg-muted/30 rounded-lg flex flex-col items-center justify-center p-6 border-2 border-primary/20">
+            <div className="text-8xl mb-4 text-primary">
+              {/* You can choose one of these icons based on your preference */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="128"
+                height="128"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="mb-6">
+                <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1" />
+                <path d="M16 3h1a2 2 0 0 1 2 2v5a2 2 0 0 0 2 2 2 2 0 0 0-2 2v5a2 2 0 0 1-2 2h-1" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-center">
+              Full Stack Developer
+            </h3>
+            <p className="text-center text-muted-foreground mt-2">
+              Building web solutions with passion and precision
+            </p>
           </div>
         </motion.div>
       </div>

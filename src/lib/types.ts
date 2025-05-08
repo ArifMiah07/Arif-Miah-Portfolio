@@ -94,7 +94,7 @@ export interface BlogPost {
   
   // Skills type
   export interface Skills {
-    technical: { name: string; level: number }[];
+    technical: { name: string; level: number; image:string }[];
     frameworks: string[];
     soft: string[];
   }

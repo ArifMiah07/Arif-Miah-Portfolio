@@ -60,18 +60,31 @@ export const education: Education[] = [
 ]
 
 export const skills: Skills = {
+  // technical: [
+  //   { name: 'JavaScript (ES6+)', level: 95 },
+  //   { name: 'TypeScript', level: 90 },
+  //   { name: 'HTML/CSS/SCSS', level: 95 },
+  //   { name: 'React.js', level: 90 },
+  //   { name: 'Next.js', level: 90 },
+  //   { name: 'Redux / RTK Query', level: 85 },
+  //   { name: 'Node.js', level: 73 },
+  //   { name: 'Express.js', level: 80 },
+  //   { name: 'MongoDB / Mongoose', level: 80 },
+  //   { name: 'Firebase Auth / JWT', level: 75 },
+  //   { name: 'Git & GitHub', level: 90 }
+  // ],
   technical: [
-    { name: 'JavaScript (ES6+)', level: 95 },
-    { name: 'TypeScript', level: 90 },
-    { name: 'HTML/CSS/SCSS', level: 95 },
-    { name: 'React.js', level: 90 },
-    { name: 'Next.js', level: 90 },
-    { name: 'Redux / RTK Query', level: 85 },
-    { name: 'Node.js', level: 73 },
-    { name: 'Express.js', level: 80 },
-    { name: 'MongoDB / Mongoose', level: 80 },
-    { name: 'Firebase Auth / JWT', level: 75 },
-    { name: 'Git & GitHub', level: 90 }
+    { name: 'JavaScript (ES6+)', level: 95, image: '/icons/javascript.svg' },
+    { name: 'TypeScript', level: 90, image: '/icons/typescript.svg' },
+    { name: 'HTML/CSS/SCSS', level: 95, image: '/icons/htmlcss.svg' },
+    { name: 'React.js', level: 90, image: '/icons/react.svg' },
+    { name: 'Next.js', level: 90, image: '/icons/nextjs.svg' },
+    { name: 'Redux / RTK Query', level: 85, image: '/icons/redux.svg' },
+    { name: 'Node.js', level: 73, image: '/icons/nodejs.svg' },
+    { name: 'Express.js', level: 80, image: '/icons/express.svg' },
+    { name: 'MongoDB / Mongoose', level: 80, image: '/icons/mongodb.svg' },
+    { name: 'Firebase Auth / JWT', level: 75, image: '/icons/firebase.svg' },
+    { name: 'Git & GitHub', level: 90, image: '/icons/github.svg' }
   ],
   frameworks: [
     'React.js',
