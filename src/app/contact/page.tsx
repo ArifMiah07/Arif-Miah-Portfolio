@@ -134,7 +134,7 @@ const ContactPage = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/arifmiah01" 
+                  href="https://linkedin.com/in/arifmiah07" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-muted rounded-full p-2 hover:bg-primary/10 hover:text-primary transition-colors"

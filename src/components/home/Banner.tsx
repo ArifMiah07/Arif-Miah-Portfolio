@@ -7,7 +7,7 @@ import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react'
 export default function Banner() {
   const socialLinks = [
     { name: 'GitHub', icon: <Github size={20} />, url: 'https://github.com/arifmiah07' },
-    { name: 'LinkedIn', icon: <Linkedin size={20} />, url: 'https://linkedin.com/in/arifmiah01' },
+    { name: 'LinkedIn', icon: <Linkedin size={20} />, url: 'https://linkedin.com/in/arifmiah07' },
     { name: 'Twitter', icon: <Twitter size={20} />, url: 'https://twitter.com/arifmiah01' },
   ]
 

@@ -116,7 +116,7 @@ If you'd like to reach out:
 
 - **Portfolio**: [arif-miah-portfolio](https://arif-miah-portfolio.vercel.app/)
 - **Email**: [arifmiah](arifmiah.me101@gmail.com)
-- **LinkedIn**: [arifmiah](https://www.linkedin.com/in/arifmiah01/)
+- **LinkedIn**: [arifmiah](https://www.linkedin.com/in/arifmiah07/)
 - **GitHub**: [@arifmiah](https://github.com/arifmiah07)
 
 ---

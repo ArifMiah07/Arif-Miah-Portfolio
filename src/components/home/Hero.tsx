@@ -31,8 +31,8 @@ export default function Hero() {
     if (value === "download") {
       // Start downloading the resume
       const link = document.createElement("a");
-      link.href = "/resume.pdf";
-      link.download = "resume.pdf";
+      link.href = "/Arif_Miah_FullStack_Developer.pdf";
+      link.download = "Arif_Miah_FullStack_Developer.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -42,7 +42,7 @@ export default function Hero() {
     } else if (value === "gdrive") {
       // Open Google Drive link in new tab
       window.open(
-        "https://drive.google.com/file/d/10Cf5uKo2ewTm6aouCweC_V2M4eFbTjS0/view?usp=sharing",
+        "https://drive.google.com/file/d/1S2I-ISa4Gw0GWE_leAqAnmBq2ozspGUP/view?usp=sharing",
         "_blank"
       );
     }
@@ -116,7 +116,7 @@ export default function Hero() {
                   </DialogHeader>
                   <div className="h-[70vh] w-full">
                     <iframe
-                      src="/resume.pdf"
+                      src="/Arif_Miah_FullStack_Developer.pdf"
                       className="h-full w-full rounded-md border border-muted"
                       title="Resume Preview"
                     />
