@@ -31,8 +31,8 @@ export default function Hero() {
     if (value === "download") {
       // Start downloading the resume
       const link = document.createElement("a");
-      link.href = "/Arif_Miah_FullStack_Developer.pdf";
-      link.download = "Arif_Miah_FullStack_Developer.pdf";
+      link.href = "/Arif_Miah_FullStack_Developer_Resume.pdf";
+      link.download = "Arif_Miah_FullStack_Developer_Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -116,7 +116,7 @@ export default function Hero() {
                   </DialogHeader>
                   <div className="h-[70vh] w-full">
                     <iframe
-                      src="/Arif_Miah_FullStack_Developer.pdf"
+                      src="/Arif_Miah_FullStack_Developer_Resume.pdf"
                       className="h-full w-full rounded-md border border-muted"
                       title="Resume Preview"
                     />

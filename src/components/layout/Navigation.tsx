@@ -59,7 +59,7 @@ export default function Navigation() {
             </Link>
           ))}
           <a 
-            href="/Arif_Miah_FullStack_Developer.pdf" 
+            href="/Arif_Miah_FullStack_Developer_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
