@@ -41,7 +41,7 @@ export const education: Education[] = [
   {
     degree: 'Bachelor of Science in Computer Science (Expected)',
     institution: 'Premier University, Chittagong',
-    period: '2025 - 2030 (Expected)',
+    period: 'Expected August 2029',
     description: 'Starting my undergraduate journey in late 2025. I plan to focus on core areas such as Data Structures, Algorithms, Database Systems, and Full-Stack Web Development.'
   },
   {
