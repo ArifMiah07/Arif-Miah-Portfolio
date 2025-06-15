@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://arif-miah-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://arif-miah-portfolio.vercel.app/sitemap.xml
