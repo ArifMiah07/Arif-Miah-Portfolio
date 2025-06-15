@@ -73,6 +73,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <head>
+        {/* google search console */}
+        <meta
+          name="google-site-verification"
+          content="ugyyBMZKICctARHZ6bZvz3RIU3rMdxwLkaASEW7QISE"
+        />
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1MRGGWEVFL"
@@ -86,11 +91,6 @@ export default function RootLayout({
             gtag('config', 'G-1MRGGWEVFL');
           `}
         </Script>
-        {/* google search console */}
-        <meta
-          name="google-site-verification"
-          content="ugyyBMZKICctARHZ6bZvz3RIU3rMdxwLkaASEW7QISE"
-        />
       </head>
       <body className={`${inter.className} bg-background text-foreground`}>
         <ThemeProvider
