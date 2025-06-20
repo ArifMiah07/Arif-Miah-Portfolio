@@ -47,7 +47,7 @@ export const metadata: Metadata = {
         alt: "Arif Miah Portfolio Screenshot",
       },
       {
-        url: "https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.jpg",
+        url: "https://arif-miah-portfolio.vercel.app/arifmiah.png",
         width: 800,
         height: 800,
         alt: "Arif Miah – Full Stack MERN Developer",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     site: "@arifmiah01",
     images: [
       "https://arif-miah-portfolio.vercel.app/og-image.png",
-      "https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.jpg",
+      "https://arif-miah-portfolio.vercel.app/arifmiah.png",
     ],
   },
   robots: {
@@ -91,7 +91,7 @@ export default function RootLayout({
             jobTitle: "Full Stack MERN Developer",
             url: "https://arif-miah-portfolio.vercel.app",
             image:
-              "https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.png",
+              "https://arif-miah-portfolio.vercel.app/arifmiah.png",
             sameAs: [
               "https://github.com/ArifMiah07",
               "https://linkedin.com/in/arifmiah07",
