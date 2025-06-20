@@ -1,35 +1,23 @@
-Name: Arif Miah
-Role: Full Stack MERN Developer | Aspiring Tech Leader
-Location: Chittagong, Bangladesh
+# llms.txt - AI-friendly summary of key content on arif-miah-portfolio.vercel.app
+# Last updated: 2025-06-20
 
-Summary:
-I am a passionate full stack web developer specializing in the MERN stack (MongoDB, Express, React, Node.js), with strong TypeScript skills and modern frontend/backend expertise. Currently pursuing a B.Sc. in Computer Science and Engineering, I combine solid programming fundamentals with creativity from my science background and storytelling skills. My mission is to build accessible, performant, and scalable web applications that positively impact users and communities.
+# Homepage: Intro, highlights, contact
+https://arif-miah-portfolio.vercel.app
 
-Skills:
-- Frontend: React.js, Next.js, TypeScript, Redux Toolkit, Tailwind CSS, Material UI, Shadcn UI, Framer Motion
-- Backend: Node.js, Express.js, REST API, JWT, Socket.io, Firebase Auth, Stripe integration
-- Database: MongoDB, Mongoose, Data modeling, Query optimization
-- Tools & Deployment: Git, GitHub, Vercel, Netlify, Postman, ESLint, Zod
-- Additional: C, C++, Python basics, Linux commands, Figma, GIMP, Inkscape
+# About: Developer journey, philosophy, core skills
+https://arif-miah-portfolio.vercel.app/about
 
-Projects:
-- Medi-Sphere: Medicine management full-stack app with React, Redux, Node.js, MongoDB
-- Cycle-Sphere: Bicycle e-commerce platform using Next.js, Shadcn UI, Stripe payments
-- Vibe Chat: Real-time chat application built with Socket.io and React
-- Clyst: Social journaling app leveraging Next.js, TypeScript, and Tailwind CSS
-- Color Contrast Checker: Accessibility tool ensuring UI/UX compliance
+# Projects: Real-world MERN full-stack projects with tech stack
+https://arif-miah-portfolio.vercel.app/projects
 
-Education:
-- B.Sc. in Computer Science & Engineering (In Progress)
-- Programming Hero: Completed Level 1 & 2 web development courses focusing on full-stack JavaScript technologies
+# Blog: Technical writing, frontend insights, and creative posts
+https://arif-miah-portfolio.vercel.app/blog
 
-Leadership Vision:
-I aspire to be a future leader across human and AI domains, blending technical excellence, creativity, and ethical influence to shape the digital future responsibly and innovatively.
+# Contact: Links to GitHub, LinkedIn, and email
+https://arif-miah-portfolio.vercel.app/contact
 
-Contact:
-- Portfolio: https://arif-miah-portfolio.vercel.app
-- GitHub: https://github.com/ArifMiah07
-- LinkedIn: https://linkedin.com/in/arifmiah
-- Email: arif.miah@example.com
+# Structured profile for LLMs (You are here)
+https://arif-miah-portfolio.vercel.app/llms.txt
 
-Last Updated: 2025-06-20
+# Full documentation and in-depth AI profile
+https://arif-miah-portfolio.vercel.app/llms-full.txt

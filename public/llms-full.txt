@@ -36,9 +36,9 @@ Others: C/C++, Python (basic), Figma, GIMP, Inkscape
 I aim to lead with empathy, ethics, and innovation in tech. I view AI as a co-pilot, not a competitor. My mission is to build not just apps — but impact.
 
 ## Contact
-Email: arif.miah@example.com  
+Email: arifmiah.me101@gmail.com  
 GitHub: https://github.com/ArifMiah07  
-LinkedIn: https://linkedin.com/in/arifmiah
+LinkedIn: https://linkedin.com/in/arifmiah07
 
 ## Sitemap & Metadata
 Sitemap: https://arif-miah-portfolio.vercel.app/sitemap.xml  
