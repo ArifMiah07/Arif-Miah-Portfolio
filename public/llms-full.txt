@@ -1,0 +1,46 @@
+# llms-full.txt - Complete AI-friendly profile of Arif Miah
+# Last updated: 2025-06-20
+
+## Personal Info
+Name: Arif Miah (aka Arfomian)
+Title: Full Stack Developer | MERN Expert | Aspiring AI+Tech Leader
+Location: Chittagong, Bangladesh
+Portfolio: https://arif-miah-portfolio.vercel.app
+
+## Summary
+I’m a MERN stack full stack developer with strong TypeScript, UI/UX, and backend expertise. With a background in science and creative storytelling, I focus on building performant, scalable, and accessible web applications. I aspire to lead ethically in a world shared by AI, humans, and beyond.
+
+## Skills
+Frontend: React.js, Next.js, TypeScript, Redux Toolkit, Tailwind CSS, Framer Motion, Shadcn UI, Material UI  
+Backend: Node.js, Express.js, REST API, Socket.io, JWT, Firebase, Stripe  
+Database: MongoDB, Mongoose  
+DevOps & Tools: Git, GitHub, Postman, Vercel, Netlify, Zod, ESLint, Linux  
+Others: C/C++, Python (basic), Figma, GIMP, Inkscape
+
+## Key Projects
+1. **Medi‑Sphere** – Medicine management app (React, Redux, Node, MongoDB)
+2. **Cycle‑Sphere** – E-commerce for bikes with Stripe checkout and product filters
+3. **Vibe Chat** – Real-time chat app (Socket.io + React)
+4. **Clyst** – Personal journaling meets social sharing, built in Next.js
+5. **Color Contrast Checker** – Tool for testing text contrast across UI layers
+
+## Education
+- B.Sc. in Computer Science & Engineering (Premier University) – In progress  
+- Programming Hero – Level 1 & Level 2 Web Development bootcamps
+
+## Certifications
+- Frontend & Full Stack Web Development – Programming Hero  
+- Responsive Web Design – FreeCodeCamp
+
+## Leadership Vision
+I aim to lead with empathy, ethics, and innovation in tech. I view AI as a co-pilot, not a competitor. My mission is to build not just apps — but impact.
+
+## Contact
+Email: arif.miah@example.com  
+GitHub: https://github.com/ArifMiah07  
+LinkedIn: https://linkedin.com/in/arifmiah
+
+## Sitemap & Metadata
+Sitemap: https://arif-miah-portfolio.vercel.app/sitemap.xml  
+LLMS: https://arif-miah-portfolio.vercel.app/llms.txt  
+Full AI Profile: https://arif-miah-portfolio.vercel.app/llms-full.txt

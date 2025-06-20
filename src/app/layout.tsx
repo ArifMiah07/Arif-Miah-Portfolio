@@ -46,6 +46,12 @@ export const metadata: Metadata = {
         height: 630,
         alt: "Arif Miah Portfolio Screenshot",
       },
+      {
+        url: "https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.jpg",
+        width: 800,
+        height: 800,
+        alt: "Arif Miah – Full Stack MERN Developer",
+      },
     ],
   },
   twitter: {
@@ -53,7 +59,10 @@ export const metadata: Metadata = {
     title: "Arif Miah | Full Stack Developer",
     description: "Explore my web development projects and blogs.",
     site: "@arifmiah01",
-    images: ["https://arif-miah-portfolio.vercel.app/og-image.png"],
+    images: [
+      "https://arif-miah-portfolio.vercel.app/og-image.png",
+      "https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.jpg",
+    ],
   },
   robots: {
     index: true,
@@ -73,6 +82,24 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <head>
+        {/* dont know if work for image*/}
+        <Script id="json-ld-person" type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Arif Miah",
+            jobTitle: "Full Stack MERN Developer",
+            url: "https://arif-miah-portfolio.vercel.app",
+            image:
+              "https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.png",
+            sameAs: [
+              "https://github.com/ArifMiah07",
+              "https://linkedin.com/in/arifmiah07",
+            ],
+            description:
+              "Arif Miah is a passionate full stack web developer specialized in React, TypeScript, and Node.js. Based in Chittagong, Bangladesh, he builds fast, modern, accessible web apps.",
+          })}
+        </Script>
         {/* google search console */}
         <meta
           name="google-site-verification"

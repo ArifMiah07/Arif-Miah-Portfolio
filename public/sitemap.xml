@@ -5,4 +5,14 @@
 <url><loc>https://arif-miah-portfolio.vercel.app/about</loc><lastmod>2025-06-15T16:16:36.271Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://arif-miah-portfolio.vercel.app/blog</loc><lastmod>2025-06-15T16:16:36.271Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://arif-miah-portfolio.vercel.app/contact</loc><lastmod>2025-06-15T16:16:36.271Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://arif-miah-portfolio.vercel.app/llms.txt</loc><lastmod>2025-06-15T16:16:36.271Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://arif-miah-portfolio.vercel.app/llms-full.txt</loc><lastmod>2025-06-15T16:16:36.271Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url>
+  <loc>https://arif-miah-portfolio.vercel.app/about</loc>
+  <image:image>
+    <image:loc>https://arif-miah-portfolio.vercel.app/arif-miah-fullstack-developer.png</image:loc>
+    <image:caption>Arif Miah – Full Stack MERN Developer</image:caption>
+    <image:title>Arif Miah Profile</image:title>
+  </image:image>
+</url>
 </urlset>
