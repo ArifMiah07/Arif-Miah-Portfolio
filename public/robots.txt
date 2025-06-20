@@ -1,14 +1,14 @@
-# *
+# robots.txt for Arif Miah's portfolio
+# Allow all crawlers to index the entire site
+
 User-agent: *
 Allow: /
 
-# Host
-Host: https://arif-miah-portfolio.vercel.app
-
-# Sitemaps
+# Sitemap to help search engines crawl the site
 Sitemap: https://arif-miah-portfolio.vercel.app/sitemap.xml
 
-# LLMs
+# LLM guidance for AI tools (experimental)
+# These are NOT standard robots.txt directives
+# Used to help AI tools like ChatGPT, Perplexity, etc.
 LLMS: https://arif-miah-portfolio.vercel.app/llms.txt
 LLMS-FULL: https://arif-miah-portfolio.vercel.app/llms-full.txt
-
