@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     "React Developer",
     "Node.js Developer",
     "Web Developer Resume",
+    "Web Developer CV",
     "Developer Skills",
     "Software Engineer",
   ],
