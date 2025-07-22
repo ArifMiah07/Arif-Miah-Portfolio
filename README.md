@@ -6,7 +6,7 @@ Welcome to the codebase of my personal developer portfolio built with **Next.js*
 
 ---
 
-<!-- [img](/assets/banner-snapshort.png) -->
+![img](https://arif-miah-portfolio.vercel.app/assets/banner-snapshort.png)
 
 ---
 
