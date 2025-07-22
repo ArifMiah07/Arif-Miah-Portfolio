@@ -6,6 +6,10 @@ Welcome to the codebase of my personal developer portfolio built with **Next.js*
 
 ---
 
+<!-- [img](/assets/banner-snapshort.png) -->
+
+---
+
 ## ✨ Features
 
 - 🚀 Built with **Next.js (App Router)** for fast routing and SEO
