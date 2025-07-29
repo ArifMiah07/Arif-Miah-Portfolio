@@ -11,36 +11,36 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-
 type TSound = {
-    src: string;
-    title: string;
-    channel: string;
-    duration?: string;
-    url?:string;
-}
+  src: string;
+  title: string;
+  channel: string;
+  channelUrl?: string;
+  duration?: string;
+  url?: string;
+};
 
-const sound1 : TSound = {
-    src: "/audios/antent-ill-be-your-reason-slowed.mp3",
-    title: "antent - i'll be your reason (slowed + reverb)",
-    channel: "dreamscape",
-    duration: "2:36",
-    url: "https://youtu.be/BWJBgDx9WfU?si=sZeKLOjczG9YuDsq"
-}
+const sound1: TSound = {
+  src: "/audios/antent-ill-be-your-reason-slowed.mp3",
+  title: "antent - i'll be your reason (slowed + reverb)",
+  channel: "dreamscape",
+  channelUrl: "https://www.youtube.com/@dreamscape..",
+  duration: "2:36",
+  url: "https://youtu.be/BWJBgDx9WfU?si=sZeKLOjczG9YuDsq",
+};
 
 export default function AudioPlayer() {
   const [audioIsPlaying, setAudioIsPlaying] = useState(false);
   const [infoIsShowing, setInfoIsShowing] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
-//   const [count, setCount] = useState(0); 
+  //   const [count, setCount] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
 
+  //   const handle audio list
 
-//   const handle audio list
-
-    // const handleAudioList = ()=>{
-    //     // 
-    // }
+  // const handleAudioList = ()=>{
+  //     //
+  // }
 
   // handle audio player --> on off toggle
   const handleAudioPlaying = () => {
@@ -113,13 +113,25 @@ export default function AudioPlayer() {
               height={80}></Image>
 
             <div>
-                 {/* todo: dynamic */}
+              {/* todo: dynamic */}
               <dl>
                 <dt>
-                  <strong>Source - </strong>
+                  <strong>Credit - </strong>
                 </dt>
-                <dd> <Link href={sound1.url ? sound1.url : 'url is missing!'}>{sound1.title}</Link> </dd>
-                <dd>{sound1.channel}</dd>
+                <dd>
+                  {" "}
+                  <Link href={sound1.url ? sound1.url : "url is missing!"}>
+                    {sound1.title}
+                  </Link>{" "}
+                </dd>
+                <dd>
+                  <Link
+                    href={
+                      sound1.channelUrl ? sound1.channelUrl : "url is missing!"
+                    }>
+                    {sound1.channel}
+                  </Link>
+                </dd>
               </dl>
             </div>
 
@@ -135,11 +147,11 @@ export default function AudioPlayer() {
 
       {/* hidden audio element */}
       <audio ref={audioRef} loop preload="auto">
-        <source 
-        src="/audios/antent-ill-be-your-reason-slowed.mp3"
-        // src="/audios/scizzie-aquatic-ambience.mp3" 
-        type="audio/mpeg"
-         />
+        <source
+          src="/audios/antent-ill-be-your-reason-slowed.mp3"
+          // src="/audios/scizzie-aquatic-ambience.mp3"
+          type="audio/mpeg"
+        />
         Your browser does not support the audio element.
       </audio>
     </div>
