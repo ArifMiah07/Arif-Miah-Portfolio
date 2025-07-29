@@ -25,6 +25,7 @@ import {
   // DialogTrigger,
 } from "@/components/ui/dialog";
 import { useState } from "react";
+// import AudioPlayer from "../audio/AudioPlayer";
 
 // Define props type
 interface AboutContentProps {
@@ -62,6 +63,7 @@ const AboutContent = ({ education, experience, skills }: AboutContentProps) => {
 
   return (
     <div className="container mx-auto py-16 px-4 md:px-6">
+      
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import Script from "next/script";
+import AudioPlayer from "@/components/audio/AudioPlayer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -119,7 +120,12 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`${inter.className} bg-background text-foreground`}>
+      <body className={`${inter.className} relative bg-background text-foreground`}>
+        {/* audio player */}
+          <div className="w-fit h-fit fixed z-9999  bottom-8 right-8 ">
+            <AudioPlayer />
+          </div>
+      {/* rest of the components */}
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
