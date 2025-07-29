@@ -17,6 +17,13 @@ export default function AudioPlayer() {
 //   const [count, setCount] = useState(0); 
   const audioRef = useRef<HTMLAudioElement>(null);
 
+
+//   const handle audio list
+
+    const handleAudioList = ()=>{
+        //
+    }
+
   // handle audio player --> on off toggle
   const handleAudioPlaying = () => {
     if (!audioRef.current) return;
@@ -39,7 +46,7 @@ export default function AudioPlayer() {
   useEffect(() => {
     const startAudio = () => {
       if (audioRef.current && !hasInteracted) {
-        audioRef.current.volume = 0.5;
+        audioRef.current.volume = 0.1;
         audioRef.current
           .play()
           .then(() => {
@@ -80,7 +87,7 @@ export default function AudioPlayer() {
 
         {/* info panel */}
         {infoIsShowing && (
-          <section className="rounded-xl w-[60vw] md:w-[20vw] h-[40vh] md:h-[36vh] flex flex-col items-center justify-between p-2 gap-2 bg-amber-100 absolute -top-56 md:-top-56 right-4">
+          <section className="rounded-xl w-[60vw] md:w-[20vw] h-[40vh] md:h-[36vh] flex flex-col items-center justify-between p-2 gap-2 bg-amber-100 dark:bg-primary absolute -top-56 md:-top-56 right-4">
             <Image
               src={"/icons/meow.png"}
               alt="meow meow"
@@ -98,7 +105,7 @@ export default function AudioPlayer() {
               </dl>
             </div>
 
-            <div className="w-full bg-amber-50 border border-amber-400 rounded-lg flex items-center justify-evenly gap-2 p-2 ">
+            <div className="w-full bg-amber-50 dark:bg-teal-500 border border-amber-300 dark:border-teal-300 rounded-lg flex items-center justify-evenly gap-2 p-2 ">
               <ChevronLeft />
               {/* todo: dynamic */}
               <p>2:03</p>
