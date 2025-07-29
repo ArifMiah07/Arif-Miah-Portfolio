@@ -8,7 +8,25 @@ import {
   Info,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+
+
+type TSound = {
+    src: string;
+    title: string;
+    channel: string;
+    duration?: string;
+    url?:string;
+}
+
+const sound1 : TSound = {
+    src: "/audios/antent-ill-be-your-reason-slowed.mp3",
+    title: "antent - i'll be your reason (slowed + reverb)",
+    channel: "dreamscape",
+    duration: "2:36",
+    url: "https://youtu.be/BWJBgDx9WfU?si=sZeKLOjczG9YuDsq"
+}
 
 export default function AudioPlayer() {
   const [audioIsPlaying, setAudioIsPlaying] = useState(false);
@@ -20,9 +38,9 @@ export default function AudioPlayer() {
 
 //   const handle audio list
 
-    const handleAudioList = ()=>{
-        //
-    }
+    // const handleAudioList = ()=>{
+    //     // 
+    // }
 
   // handle audio player --> on off toggle
   const handleAudioPlaying = () => {
@@ -87,7 +105,7 @@ export default function AudioPlayer() {
 
         {/* info panel */}
         {infoIsShowing && (
-          <section className="rounded-xl w-[60vw] md:w-[20vw] h-[40vh] md:h-[36vh] flex flex-col items-center justify-between p-2 gap-2 bg-amber-100 dark:bg-primary absolute -top-56 md:-top-56 right-4">
+          <section className="rounded-xl w-[60vw] md:w-[24vw] h-[48vh] md:h-[40vh] flex flex-col items-center justify-between p-2 gap-2 bg-amber-100 dark:bg-primary absolute -top-72 md:-top-64 right-4">
             <Image
               src={"/icons/meow.png"}
               alt="meow meow"
@@ -100,15 +118,15 @@ export default function AudioPlayer() {
                 <dt>
                   <strong>Source - </strong>
                 </dt>
-                <dd>leadwave - cosmic dream</dd>
-                <dd> dreamscape</dd>
+                <dd> <Link href={sound1.url ? sound1.url : 'url is missing!'}>{sound1.title}</Link> </dd>
+                <dd>{sound1.channel}</dd>
               </dl>
             </div>
 
             <div className="w-full bg-amber-50 dark:bg-teal-500 border border-amber-300 dark:border-teal-300 rounded-lg flex items-center justify-evenly gap-2 p-2 ">
               <ChevronLeft />
               {/* todo: dynamic */}
-              <p>2:03</p>
+              <p>{sound1.duration}</p>
               <ChevronRight />
             </div>
           </section>
@@ -117,7 +135,11 @@ export default function AudioPlayer() {
 
       {/* hidden audio element */}
       <audio ref={audioRef} loop preload="auto">
-        <source src="/audios/scizzie-aquatic-ambience.mp3" type="audio/mpeg" />
+        <source 
+        src="/audios/antent-ill-be-your-reason-slowed.mp3"
+        // src="/audios/scizzie-aquatic-ambience.mp3" 
+        type="audio/mpeg"
+         />
         Your browser does not support the audio element.
       </audio>
     </div>
